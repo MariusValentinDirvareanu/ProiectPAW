@@ -27,8 +27,9 @@ ul {
 }
 
 nav {
-    height: 40px;
+    height: 50px;
     background: #EBF7E3;
+    border-radius: 0.5cm;
 }
 
 nav ul {
@@ -63,6 +64,7 @@ nav .active {
     background: #375F1B;
     margin-top: 20px;
     padding: 10px;
+    border-radius: 0.5cm;
 }
 
 #sidebar #linkuri {
@@ -74,6 +76,7 @@ footer {
     padding: 10px;
     background: #375F1B;
     margin-top: 30px;
+    border-radius: 10cm;
 }
 
 .services li {
@@ -92,7 +95,8 @@ input, textarea {
     margin-bottom: 15px;
 }
 
-#header {
+header {
     background-color: #66B032;
     padding: 20px;
+    border-radius: 0.5cm;
 }
