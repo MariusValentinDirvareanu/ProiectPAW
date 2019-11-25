@@ -92,3 +92,7 @@ input, textarea {
     background-color: #183BF0;
     padding: 20px;
 }
+
+#sidebar #linkuri {
+    padding: 10px;
+}

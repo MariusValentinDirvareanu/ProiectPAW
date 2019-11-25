@@ -65,6 +65,10 @@ nav .active {
     padding: 10px;
 }
 
+#sidebar #linkuri {
+    padding: 10px;
+}
+
 footer {
     text-align: center;
     padding: 10px;
