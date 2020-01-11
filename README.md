@@ -1,4 +1,4 @@
-Tema proiect HTML + CSS + JavaScript +PHP
+# Tema proiect HTML + CSS + JavaScript +PHP
 
 Va rog sa includeti toate fisierele proiectului in folderul de baza si, daca veti considera ca
 este cazul, in subfoldere ale acestuia (recomandate subfolderele CSS, JS, PHP, IMG).
@@ -13,13 +13,14 @@ Predarea proiectului se va face prin trimiterea pe mail a folderului principal c
 arhivat in format .zip sau .rar pana pe 15 ianuarie 2020 cel mai tarziu.
 Prezentara si notarea finala a proiectului se va face la examen.
 
-CERINTE si punctaj:
-1) HTML (30p)
+# CERINTE si punctaj:
+# 1) HTML (30p)
 Includeti in folderul de baza fisierele html index.html, pagina1.html, pagina2.html. Pagina
 index.html va fi pagina de prezentare, in principiu cea care se deschide la “accesarea site-ului”,
 celelalte doua pagini vor trata doua subiecte “de interes” la alegere (istorie, geografie,
 arhitectura, plante, animale, calculatoare, literatura, cinematografie, sport, stiri, stiinta, hobby-
-uri, turism...)
+uri, turism...) -> <b>trebuie aleasa tema<b>
+
 Cele trei pagini html vor avea urmatoarele elemente commune in <body>:
 Un antet continand descrierea paginii sau un mesaj de bun venit. (sugestie: se poate folosi tagul
 de sectiune (division) <div> si eventual un id pentru delimitarea acestuia).
