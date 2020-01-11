@@ -37,6 +37,7 @@ doua imagini color.
 c. pagina2.html va trata cel de-al doilea subiect la alegere, organizarea acestuia fiind ca si pentru
 prima pagina, in loc de lista va contine cel putin un tabel.
 
+# 3) JavaScript (30p)
 Adaugati un buton in sectiunea de antet si codul necesar astfel incat la apasarea butonului sa se
 modifice culoarea de fundal a sectiunii principale (intr-o culoare la alegere, fixa sau a unei alte
 sectiuni) -> facut
