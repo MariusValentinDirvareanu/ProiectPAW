@@ -13,11 +13,11 @@ function store() {
 
 window.onload = function () {
     if (localStorage.username != null) {
-        document.getElementById('auth').style.display = '';
+        document.getElementById('aut').style.display = '';
         document.getElementById('sub').style.display = 'none';
     }
     else {
-        document.getElementById('auth').style.display = 'none';
+        document.getElementById('aut').style.display = 'none';
         document.getElementById('sub').style.display = '';
     }
 }
