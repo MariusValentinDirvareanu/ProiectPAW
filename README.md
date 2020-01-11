@@ -23,11 +23,11 @@ uri, turism...) -> <b>trebuie aleasa tema</b>
 
 Cele trei pagini html vor avea urmatoarele elemente commune in \<body>\:
 Un antet continand descrierea paginii sau un mesaj de bun venit. (sugestie: se poate folosi tagul
-de sectiune (division) <div> si eventual un id pentru delimitarea acestuia).
-Un meniu de navigare <nav> continand link-urile catre cele trei pagini asezate pe acelasi rand,
+de sectiune (division) \<div>\ si eventual un id pentru delimitarea acestuia).
+Un meniu de navigare \<nav>\ continand link-urile catre cele trei pagini asezate pe acelasi rand,
 separate prin “|”.
-O sectiune (<div> cu id de ex “main”) cu continutul principal al paginii.
-Un footer (<div> cu id de ex “f1”) cu continut de genul “Copyright FSA gr.134x 2019-2020”.
+O sectiune (\<div>\ cu id de ex “main”) cu continutul principal al paginii.
+Un footer (\<div>\ cu id de ex “f1”) cu continut de genul “Copyright FSA gr.134x 2019-2020”.
 Continutul principal – conditii minime pentru fiecare din cele trei pagini:
 a. index.html va trebui sa contina un paragraf cu o scurta descriere a site-ului., un logo sau o
 imagine si cateva link-uri catre site-uri de interes (la alegere)
@@ -46,7 +46,7 @@ prezente in site (una singura, la alegere) sa apara imaginea respectiva in alb-n
 cursorului de pe imagine sa se revina la imaginea initiala color. -> facut
 
 Utilizati JavaScript si un eveniment (la alegere, pe oricare dintre pagini) pentru a rearanja cele 4
-sectiuni din <body> plasand antetul in partea stanga a sectiunii principale, deci facand sa apara 2
+sectiuni din \<body>\ plasand antetul in partea stanga a sectiunii principale, deci facand sa apara 2
 coloane deasupra footer-ului. -> nefacut
   
 Adaugati intr-una din pagini (sau intr-o pagina suplimentara, la alegere) un formular in care
