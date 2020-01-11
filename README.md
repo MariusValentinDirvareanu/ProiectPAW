@@ -19,9 +19,9 @@ Includeti in folderul de baza fisierele html index.html, pagina1.html, pagina2.h
 index.html va fi pagina de prezentare, in principiu cea care se deschide la “accesarea site-ului”,
 celelalte doua pagini vor trata doua subiecte “de interes” la alegere (istorie, geografie,
 arhitectura, plante, animale, calculatoare, literatura, cinematografie, sport, stiri, stiinta, hobby-
-uri, turism...) -> <b>trebuie aleasa tema<b>
+uri, turism...) -> <b>trebuie aleasa tema</b>
 
-Cele trei pagini html vor avea urmatoarele elemente commune in <body>:
+Cele trei pagini html vor avea urmatoarele elemente commune in \<body>\:
 Un antet continand descrierea paginii sau un mesaj de bun venit. (sugestie: se poate folosi tagul
 de sectiune (division) <div> si eventual un id pentru delimitarea acestuia).
 Un meniu de navigare <nav> continand link-urile catre cele trei pagini asezate pe acelasi rand,
