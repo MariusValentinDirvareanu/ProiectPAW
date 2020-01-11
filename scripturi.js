@@ -26,7 +26,12 @@ function auth() {
     if (document.getElementById('username').value == localStorage.username && document.getElementById('password').value == localStorage.password) {
         alert('Bun venit!');
     }
-    else{
+    else {
         alert('Username sau parola gresita!');
     }
+}
+
+function schimbareculoare() {
+    var x = document.getElementById('main');
+    x.style.backgroundColor = 'red';
 }
