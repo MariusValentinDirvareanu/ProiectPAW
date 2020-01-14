@@ -1,8 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "webuser";
-$password = 'YkMI$m6H7cN4';
-$dbname = "proiectdmva";
+include "conectare.php";
 
 $user = $_POST['user1'];
 $email = $_POST['email1'];
