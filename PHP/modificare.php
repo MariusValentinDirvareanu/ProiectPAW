@@ -5,7 +5,7 @@ include "conectare.php";
 $cantitateNoua=$_POST['cant'];
 $nr=$_SESSION['nrr'];
 
-// se cauta id-ul comenzii in functie de timp
+// se cauta comanda dupa id si se modifica cantitatea
 $q_myQuery = "UPDATE `comenzi` SET `cantitate` = '$cantitateNoua'  WHERE `id` = $nr";
 $rsmyQuery = mysqli_query($mysqli, $q_myQuery) or die(mysqli_error($mysqli));
 

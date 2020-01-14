@@ -4,7 +4,7 @@ include "conectare.php";
 
 $nr=$_SESSION['nrr'];
 
-// se cauta id-ul comenzii in functie de timp
+// se cauta id-ul comenzii si se sterge
 $q_myQuery = "DELETE FROM `comenzi` WHERE `id` = $nr";
 $rsmyQuery = mysqli_query($mysqli, $q_myQuery) or die(mysqli_error($mysqli));
 

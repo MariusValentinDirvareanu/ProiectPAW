@@ -21,6 +21,8 @@ Nume: $nume\n
 Produs: $produs\n
 Firma: $firma\n
 Cantitate: $cantitate");
+
+// Modificare cantitate comanda
 echo '<form action="modificare.php" method="post">
 Cantitate noua: <input type="number" name="cant" required><br>
 <input type="submit" value="Modifica!">
@@ -28,6 +30,7 @@ Cantitate noua: <input type="number" name="cant" required><br>
 
 echo "<br><br>";
 
+// Buton de anulare comanda
 echo '<form action="stergere.php" method="post">
 <input type="submit" value="Anulare comanda">
 </form>';
