@@ -19,7 +19,7 @@ ul {
 }
 
 #container {
-    background: #798EF6;
+    background: #9BD770;
     width: 98%;
     margin: 30px auto;
     overflow: hidden;
@@ -67,6 +67,10 @@ nav .active {
     border-radius: 0.5cm;
 }
 
+#sidebar #linkuri {
+    padding: 10px;
+}
+
 footer {
     text-align: center;
     padding: 10px;
@@ -97,6 +101,8 @@ header {
     border-radius: 0.5cm;
 }
 
-#sidebar #linkuri {
-    padding: 10px;
+#formular {
+    padding: 20px;
+    width: 20%;
+    text-align: left;
 }
