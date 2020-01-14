@@ -35,11 +35,9 @@
         </nav>
 
         <div id="main">
-            <!--
-                TODO : formular intorducere date
-            -->
+            <h1>Plasare comanda</h1>
 
-            <form action="PHP/adaugarecomanda.php" method="post">
+            <form action="PHP/adaugarecomanda.php" method="post" style="width: 40%;">
                 Nume: <input type="text" name="user1" required><br>
                 E-mail: <input type="email" name="email1" required><br>
                 Produs: <input type="text" name="produs1" required><br>
@@ -53,7 +51,7 @@
             <h3>Cautare comanda</h3>
             <p>
                 <div id="linkuri">
-                    <form action="PHP/cautareComanda.php" method="post">
+                    <form action="PHP/cautareComanda.php" method="post" style="width: 80%;">
                         Numar comanda: <input type="number" name="numarcom" required><br>
                         <input type="submit" value="Cauta!">
                     </form>

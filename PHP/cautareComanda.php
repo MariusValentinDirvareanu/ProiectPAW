@@ -26,4 +26,10 @@ Cantitate noua: <input type="number" name="cant" required><br>
 <input type="submit" value="Modifica!">
 </form>';
 
+echo "<br><br>";
+
+echo '<form action="stergere.php" method="post">
+<input type="submit" value="Anulare comanda">
+</form>';
+
 $mysqli->close();
