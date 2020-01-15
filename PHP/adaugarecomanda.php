@@ -21,7 +21,8 @@ if (mysqli_query($mysqli, $sql)) {
     $row_rsmyQuery = mysqli_fetch_assoc($rsmyQuery);
     $img = $row_rsmyQuery['id'];
     // se afiseaza id-ul comenzii
-    echo "Numar comanda: $img";
+    echo "Numar comanda: $img<br>";
+    echo "<a href='../formular.html'>Magazin</a>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($mysqli);
 }
