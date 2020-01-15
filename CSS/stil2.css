@@ -56,6 +56,7 @@ nav .active {
 #main {
     float: left;
     width: 60%;
+    border-radius: 0.5cm;
 }
 
 #sidebar {
@@ -89,7 +90,8 @@ footer {
     padding: 10px;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 5px;
     margin-bottom: 15px;
