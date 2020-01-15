@@ -1,6 +1,8 @@
 <?php
 
-if(!session_id()) session_start();
+if (!session_id()) {
+    session_start();
+}
 include "conectare.php";
 
 $nr = $_POST['numarcom'];
@@ -15,24 +17,29 @@ $produs=$row_rsmyQuery['produs'];
 $firma=$row_rsmyQuery['firma'];
 $cantitate=$row_rsmyQuery['cantitate'];
 
-// se afiseaza id-ul comenzii
-echo nl2br("Numar comanda: $nr \n
+
+if ($nume=="") {
+    echo "Comanda nu exista!";
+} else {
+    // se afiseaza id-ul comenzii
+    echo nl2br("Numar comanda: $nr \n
 Nume: $nume\n
 Produs: $produs\n
 Firma: $firma\n
 Cantitate: $cantitate");
 
-// Modificare cantitate comanda
-echo '<form action="modificare.php" method="post">
+    // Modificare cantitate comanda
+    echo '<form action="modificare.php" method="post">
 Cantitate noua: <input type="number" name="cant" required><br>
 <input type="submit" value="Modifica!">
 </form>';
 
-echo "<br><br>";
+    echo "<br><br>";
 
-// Buton de anulare comanda
-echo '<form action="stergere.php" method="post">
+    // Buton de anulare comanda
+    echo '<form action="stergere.php" method="post">
 <input type="submit" value="Anulare comanda">
 </form>';
+}
 
 $mysqli->close();
